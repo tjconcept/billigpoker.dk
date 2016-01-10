@@ -113,7 +113,7 @@ function run( storage, $root ){
 			renderBasket($basket, state.basket, locale, currency, onIncrease, onCheckout);
 			save(storage, state);
 
-			window.location = '/thanks.html';
+			window.location = '/tak.html';
 		});
 
 		track('checkout', 'open');

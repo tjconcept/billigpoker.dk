@@ -1,7 +1,7 @@
 doctype
 html
 	head
-		title= name
+		title Køb pokersæt (restparti - gode til prisen)
 		link(rel="stylesheet", href="./index.css")
 	body
 		header
@@ -12,7 +12,7 @@ html
 					= name
 
 			div.basket.empty.closed
-				a(href="#", alt="Basket") Basket
+				a(href="#", alt="Basket") Kurv
 					span.count 0
 
 				div.popup
@@ -21,13 +21,20 @@ html
 			block main
 
 		footer
-			p= footer
+			p Billigpoker.dk ejes og drives af src.agency ApS
+
+			p src.agency ApS, Grønningen 5, 8000 Aarhus C • CVR: 35247599
+
 			p
-				a(href="mailto:#{email}", alt="Contact us by email")= email
+				a(href="mailto:kontakt@billigpoker.dk", alt="Kontakt os") kontakt@billigpoker.dk
 
 				| &nbsp;•&nbsp;
 
-				a(href="/terms.html") Terms &amp; Conditions
+				| +45 61 78 27 47 (hverdage 10:00-16:00)
+
+				| &nbsp;•&nbsp;
+
+				a(href="/betingelser.html") Handelsbetingelser
 
 			div.payment-methods
 				img(src="/images/visa.svg", alt="Visa")

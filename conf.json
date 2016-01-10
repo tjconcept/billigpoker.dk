@@ -1,0 +1,54 @@
+{
+	"name": "Billigpoker.dk",
+	"paylike-public-key": "c38301cb-0cde-4b3a-801d-586a3350b69b",
+	"locale": "da",
+	"currency": "DKK",
+	"googleAnalytics": "UA-11792550-35",
+	"amounts": {
+		"before": "",
+		"after": " kr.",
+		"decimal": ",",
+		"thousands": ".",
+		"fractions": 0
+	},
+	"products": [
+		{
+			"sku": "pj300",
+			"name": "Pokersæt (300 jetoner)",
+			"description": "Pokersæt i en aluminiumskuffert med 300 chips (11,5 grams), 2 spil kort, 5 terninger og en dealer button.",
+			"price": 19900,
+			"priceFormatted": "199 kr.",
+			"image": "/pokersaet-m2.jpg"
+		},
+		{
+			"sku": "pj500",
+			"name": "Pokersæt (500 jetoner)",
+			"description": "Vores store pokersæt er et pokersæt i en aluminiumskuffert med 500 chips (11,5 grams), 2 spil kort, 5 terninger og en dealer button.",
+			"price": 31900,
+			"priceFormatted": "319 kr.",
+			"image": "/pokersaet-l2.jpg"
+		}
+	],
+	"checkout-fields": [
+		{
+			"name": "E-mail",
+			"placeholder": "eksempel@domæne.dk",
+			"required": true
+		},
+		{
+			"name": "Navn",
+			"placeholder": "Indtast fulde navn",
+			"required": true
+		},
+		{
+			"name": "Adresse",
+			"placeholder": "Adresse",
+			"required": true
+		},
+		{
+			"name": "By",
+			"placeholder": "Postnummer og by",
+			"required": true
+		}
+	]
+}
