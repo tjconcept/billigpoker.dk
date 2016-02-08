@@ -3,6 +3,8 @@ html
 	head
 		title Køb pokersæt (restparti - gode til prisen)
 		link(rel="stylesheet", href="./index.css")
+
+		meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
 	body
 		header
 			a.logo(href="/")
@@ -42,6 +44,3 @@ html
 
 		script(src="https://sdk.paylike.io/2.js", defer)
 		script(src="./index.js", defer)
-
-		if (googleAnalytics)
-			script(src="//www.google-analytics.com/analytics.js", async)

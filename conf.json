@@ -3,7 +3,7 @@
 	"paylike-public-key": "c38301cb-0cde-4b3a-801d-586a3350b69b",
 	"locale": "da",
 	"currency": "DKK",
-	"googleAnalytics": "UA-11792550-35",
+	"google-analytics": "UA-11792550-35",
 	"amounts": {
 		"before": "",
 		"after": " kr.",
